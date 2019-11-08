@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		DFD6894F2375208F00A025F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6894E2375208F00A025F4 /* AppDelegate.swift */; };
 		DFD689512375208F00A025F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD689502375208F00A025F4 /* SceneDelegate.swift */; };
-		DFD689532375208F00A025F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD689522375208F00A025F4 /* ViewController.swift */; };
+		DFD689532375208F00A025F4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD689522375208F00A025F4 /* LoginViewController.swift */; };
 		DFD689562375208F00A025F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD689542375208F00A025F4 /* Main.storyboard */; };
 		DFD689592375208F00A025F4 /* Pursuit_Core_iOS_Firebase_Auth_Lab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFD689572375208F00A025F4 /* Pursuit_Core_iOS_Firebase_Auth_Lab.xcdatamodeld */; };
 		DFD6895B2375209700A025F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD6895A2375209700A025F4 /* Assets.xcassets */; };
 		DFD6895E2375209700A025F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD6895C2375209700A025F4 /* LaunchScreen.storyboard */; };
 		DFD689692375209700A025F4 /* Pursuit_Core_iOS_Firebase_Auth_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD689682375209700A025F4 /* Pursuit_Core_iOS_Firebase_Auth_LabTests.swift */; };
+		DFD689742375240800A025F4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD689732375240800A025F4 /* ProfileViewController.swift */; };
+		DFD689752375240800A025F4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD689732375240800A025F4 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +33,7 @@
 		DFD6894B2375208F00A025F4 /* Pursuit-Core-iOS-Firebase-Auth-Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pursuit-Core-iOS-Firebase-Auth-Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD6894E2375208F00A025F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFD689502375208F00A025F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DFD689522375208F00A025F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFD689522375208F00A025F4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DFD689552375208F00A025F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFD689582375208F00A025F4 /* Pursuit_Core_iOS_Firebase_Auth_Lab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pursuit_Core_iOS_Firebase_Auth_Lab.xcdatamodel; sourceTree = "<group>"; };
 		DFD6895A2375209700A025F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		DFD689642375209700A025F4 /* Pursuit-Core-iOS-Firebase-Auth-LabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pursuit-Core-iOS-Firebase-Auth-LabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD689682375209700A025F4 /* Pursuit_Core_iOS_Firebase_Auth_LabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pursuit_Core_iOS_Firebase_Auth_LabTests.swift; sourceTree = "<group>"; };
 		DFD6896A2375209700A025F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD689732375240800A025F4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +86,7 @@
 			children = (
 				DFD6894E2375208F00A025F4 /* AppDelegate.swift */,
 				DFD689502375208F00A025F4 /* SceneDelegate.swift */,
-				DFD689522375208F00A025F4 /* ViewController.swift */,
+				DFD689762375241900A025F4 /* Controllers */,
 				DFD689542375208F00A025F4 /* Main.storyboard */,
 				DFD6895A2375209700A025F4 /* Assets.xcassets */,
 				DFD6895C2375209700A025F4 /* LaunchScreen.storyboard */,
@@ -100,6 +103,15 @@
 				DFD6896A2375209700A025F4 /* Info.plist */,
 			);
 			path = "Pursuit-Core-iOS-Firebase-Auth-LabTests";
+			sourceTree = "<group>";
+		};
+		DFD689762375241900A025F4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DFD689522375208F00A025F4 /* LoginViewController.swift */,
+				DFD689732375240800A025F4 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFD689592375208F00A025F4 /* Pursuit_Core_iOS_Firebase_Auth_Lab.xcdatamodeld in Sources */,
-				DFD689532375208F00A025F4 /* ViewController.swift in Sources */,
+				DFD689532375208F00A025F4 /* LoginViewController.swift in Sources */,
+				DFD689742375240800A025F4 /* ProfileViewController.swift in Sources */,
 				DFD6894F2375208F00A025F4 /* AppDelegate.swift in Sources */,
 				DFD689512375208F00A025F4 /* SceneDelegate.swift in Sources */,
 			);
@@ -214,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFD689752375240800A025F4 /* ProfileViewController.swift in Sources */,
 				DFD689692375209700A025F4 /* Pursuit_Core_iOS_Firebase_Auth_LabTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,7 +389,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Pursuit.Pursuit-Core-iOS-Firebase-Auth-Lab";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -392,7 +406,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Pursuit.Pursuit-Core-iOS-Firebase-Auth-Lab";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
